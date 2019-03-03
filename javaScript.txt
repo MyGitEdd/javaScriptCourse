@@ -1,0 +1,57 @@
+
+>>>Camel case notation:
+-> first word lower case, all next words starting with a capital
+var lastName, age, myFirstSony
+
+>>>Dynamic typing:
+-> Data types are automatically assigned to to variables
+var lastName = 'Jansen';    //string
+var lastName = 4711;        //number
+var lastName = true;        //boolean
+var lastName;               //undefined; variable has no value
+var lastName = null;        //non-existent value
+
+>>>Type coercion:
+-> Data types are altered automatically when used
+-> coercion = cast conversion
+var lastName = 'Jansen';
+var age = 28;
+console.log(lastName + ' is' + age + ' old'); //age is converted to a string
+
+>>>Variable mutation:
+-> The type of variables are automatically mutated when declared
+var age = 28;
+age = 'twenty eight';//type mutated from number to string
+
+>>>Output:
+console.log();              //Output to console
+alert();                    //Output in a popup window
+var something = prompt();   //Output question, inputs result in variable
+
+>>>Basic operators
+Math:
+-> 
+- + * etc.
+Logical:
+> < etc.
+Typeof:
+var age = 28;
+console.log(typeof age); -> the type "number" is shown
+
+>>>Operator precedence
+-> Operator order of execution 
+a + b >= c
+
+>>>Multiple assignment
+var x,y;
+x=y=20; //assignment operator works from right to left
+
+>>>More operators
+var x;
+x = x + 1;
+x += 1;
+x++;
+
+
+
+
