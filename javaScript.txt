@@ -52,6 +52,50 @@ x = x + 1;
 x += 1;
 x++;
 
+//11
 
+>>> If\Else
+
+if(aaa === true) {
+    console.log('');
+}
+} else if (bbb === true){
+    console.log('');
+} else {
+    console.log('');
+}
+
+>>>Boolean Logical
+AND ( a AND b)
+OR (a OR b)
+NOT ( !a)
+
+>>>ternary operator (3 part statement)
+var age = 15;
+var mature = age>=18 ? 'yes' : 'no';
+
+>>>Switch statement
+var age = 32
+switch(true) {
+    case age > 32:
+        console.log('');
+        break;
+    case age === 0:
+    case age < 5:
+        console.log('');
+        break;
+    case > 5:
+    case > 50:
+        console.log('');
+        break;
+    default:
+        console.log('no break needed, last line');
+}
+
+>>>Equality operators
+Strict (no coercion)
+23 === '23' results in false
+Coercion
+23 == '23' results in true
 
 
